@@ -52,4 +52,7 @@ by [Michael Hartl](http://www.michaelhartl.com/). Hello, world!
 ## Section 2.3.4
 1. class ApplicationController < ActionController::Base
 2. Yes, its located in /app/models/application_record.rb
+
+## Section 2.3.5
+
   
