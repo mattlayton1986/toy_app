@@ -9,7 +9,7 @@ by [Michael Hartl](http://www.michaelhartl.com/). Hello, world!
 # My Solutions to Exercises
 
 ## Section 2.2.1
-1. The CSS id is "notice". When the browser is refreshed, the <p id="notice"></p>
+1. The CSS id is "notice". When the browser is refreshed, the `<p id="notice"></p>`
     element is still there, but there is no inner HTML to display.
 2. User was successfully created. (Email address validation not required, apparently)
 3. User was successfully created. (Same as #2)
@@ -24,7 +24,7 @@ by [Michael Hartl](http://www.michaelhartl.com/). Hello, world!
     - The controller requests the edit view
     - The edit view is rendered into HTML
     - The controller passes the HTML back to the browser
-2. <td><%= link_to 'Edit', edit_user_path(user) %></td>
+2. `<td><%= link_to 'Edit', edit_user_path(user) %></td>`
 3. edit.html.erb
 
 ## Section 2.3.1
@@ -39,14 +39,16 @@ by [Michael Hartl](http://www.michaelhartl.com/). Hello, world!
 
 ## Section 2.3.3
 1. (in /app/views/users/show.html.erb):
+  ```
   <p>
-  <strong>First Micropost:</strong>
-  <%= @user.microposts.first.content %>
+    <strong>First Micropost:</strong>
+    <%= @user.microposts.first.content %>
   </p>
+  ```
 2. "Content can't be blank" error if no text is entered
 3. (in /app/models/user.rb): 
-    validates :name, presence: true
-    validates :email, presence: true
+  `validates :name, presence: true`
+  `validates :email, presence: true`
   "(Name/Email) can't be blank" error if either field is left blank.
 
 ## Section 2.3.4
