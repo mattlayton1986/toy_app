@@ -54,5 +54,8 @@ by [Michael Hartl](http://www.michaelhartl.com/). Hello, world!
 2. Yes, its located in /app/models/application_record.rb
 
 ## Section 2.3.5
+1. <Created users>
+2. <Created microposts>
+3. "Content is too long (maximum is 140 characters)"
 
   
